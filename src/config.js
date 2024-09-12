@@ -10,7 +10,7 @@ module.exports = {
         user: process.env.PGUSER || 'postgres',
         host: process.env.PGHOST || 'localhost',
         database: process.env.PGDATABASE || 'bullmarketing',
-        password: process.env.PGPASSWORD || '0924',
+        password: process.env.PGPASSWORD || '',
         port: process.env.PGPORT || 5432,
     }
 };
